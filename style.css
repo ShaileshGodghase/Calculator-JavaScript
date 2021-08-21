@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue',sans-serif;
+    text-align: center;
+}
+body{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    
+    letter-spacing: 2px;
+    padding: 30px;
+}
+table{
+    margin: 0 auto;
+}
+input{
+    margin: 20px;
+    font-size: 24px;
+    border-radius: 10px;
+    text-align: right;
+    padding: 10px;
+}
+input:focus{
+    outline: none;
+}
+.calculator{
+    margin: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 25px 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+button{
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 50%;
+    border: none;
+}
+
+.light-grey-btn{
+    background-color: #a6a6a6;
+}
+.light-grey-btn:hover{
+    background-color: #333333;
+    color: #fe9500;
+}
+.dark-grey-btn{
+    color: white;
+    background-color: #333333;
+}
+.dark-grey-btn:hover{
+    background-color: #a6a6a6;
+    color: #333333;
+}
+.yellow-btn{
+    color: white;
+    background-color: #fe9500;
+}
+.yellow-btn:hover{
+    background-color: white;
+    color: #333333;
+    border: 1px solid #333333;
+}
+i{
+    font-size: 25px;
+}
